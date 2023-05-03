@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #5277a3;
+  padding: 1.2rem 3rem 0.6rem;
+}
+
+.header .image-wrapper {
+  width: 17%;
+}
+
+.header .image-wrapper > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+}
+
+.header .wrapper {
+  width: calc(75% - 16px);
+  border-radius: 30px;
+  position: relative;
+  background-color: #2c4a76;
+}
+
+.header .wrapper >input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header .wrapper >input::placeholder {
+  color: #607d9f;
+}
+
+.header .wrapper >svg {
+  position: absolute;
+  top: 7px;
+  left: 47%;
+  fill: #607d9f !important;
+}
